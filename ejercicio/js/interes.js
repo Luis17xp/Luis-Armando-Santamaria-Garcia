@@ -1,0 +1,23 @@
+function validar_numeros(e){
+    var teclado = (document.all)? e.keyCode : e.which;
+    if(teclado == 8) return true:
+    var patron = /[0-9\d .]/;
+    var codigo = String.fromCharCode(teclado);
+    return patron.test(codigo);
+}
+function interes(){
+    var valor = document.formulario.cantidad.value;
+    console.log(valor)
+    var resul = parseInt(valor);
+    var interes=resul *0.02;
+    var total = interes + resul;
+
+    docuemnt.formulario.sueldoI.value ="$"+total;
+}
+
+function borrar_datos(){
+    document.formulario.cantidad.value= "";
+    document.formulario.sueldoI.value= "";
+
+
+}
