@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSPECCION DE MEDIDAS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .registro {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .etiqueta {
+            display: flex;
+            align-items: center;
+        }
+        .rectangulo {
+            border: 1px solid #000;
+            padding: 10px 20px;
+            margin-right: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>INSPECCION DE MEDIDAS </h1>
+        <div class="registro">
+            <div class="etiqueta izquierda">
+                <div>Modelo: </div>
+                <div class="rectangulo" id="modelo">Mensaje de Modelo</div>
+            </div>
+            <div class="etiqueta centro">
+                <div>Número de reporte:</div>
+                <div class="rectangulo" id="numReporte">Mensaje de Número de reporte</div>
+            </div>
+            <div class="etiqueta derecha">
+                <div>Fecha de inspección: </div>
+                <div class="rectangulo" id="fechaInspeccion">Mensaje de Fecha de inspección </div>
+            </div>
+        </div>
+        <div class="registro">
+            <div class="etiqueta izquierda">
+                <div>Muestro de prendas:</div>
+                <div class="rectangulo" id="muestroPrendas">Mensaje de Muestro de prendas</div>
+            </div>
+        </div>
+
+        <!-- Tabla -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Puntos a medir</th>
+                    <th>Ficha Tecnica</th>
+                    <th>No. Prenda/Colores</th>
+                    <th>Total De Prendas</th>
+                </tr>
+            </thead>
+            <tbody id="tablaBody">
+                <!-- Filas de la tabla se generarán dinámicamente con JavaScript -->
+            </tbody>
+        </table>
+
+        <!-- Script para generar la tabla dinámicamente -->
+        <script src="./script.js"></script>
+        <script src="./js/ejercicio.js"></script>
+        
+    </div>
+</body>
+</html>

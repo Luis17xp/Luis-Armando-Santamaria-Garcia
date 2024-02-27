@@ -1,0 +1,118 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(233, 17, 17, 0.933);
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border-color: chocolate;
+
+body{/*/ background */
+    background-image: url(./img/allmigth.jpg);
+    background-size: flex;
+    color: rgb(0, 255, 247);
+    font-display: unset ;
+    align-items: normal;
+    flex-direction: column;
+    align-content:center 
+}
+
+.titulo-principal{ /*/ titulo */
+    text-align:50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.userlogin{
+    padding-left: 200px;
+    text-align: center;
+}
+
+.userlogin{
+    background-color: darkblue;
+    width: 1200px;
+    height: 100px;
+    text-align: center;
+    border-radius: 55px solid rgb(199, 22, 0);
+    margin-top: 5px;
+}
+
+.title{
+    text-align: left;
+    font-family: monospace;
+    text-transform:lowercase;
+    font-size: 30px;
+    padding-top: 10px;
+    color:rgb(51,116,169)
+}
+
+.userid{
+    padding-top: 12000px;
+}
+
+.userid h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 1200px;
+    margin-right: 5px;
+    padding-left: 5px;
+    float: center;
+}
+
+.userid input{
+    height: 136px;
+    width: 300px;
+    border: solid 10px rgb(17 38 123);
+    border-radius: 10px;
+}
+
+.pasword{
+    padding-top: 1200px;
+}
+
+.password{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    margin-right: 17px;
+    padding-left: 5px;
+    float: left;
+}
+
+.password{
+    height: 25px;
+    width: 300px;
+    border: solid 2px rgb(17 38 123);
+    border-radius: 10px;
+}
+
+.button{/*/ iconos de redes */
+    margin-top: 200px;
+    display: flow-root
+}
+
+.a{
+    margin-top: 100%;
+    float: 599;
+
+   }
+
+.p{
+    margin-top: 100%;
+    float: 500;
+}
+.button button{ /*/ iconos de redes */
+    border-radius: 80px;
+    width: 150px;
+    height: 50px;
+    color: coral;
+    border-color: tomato;
+    border-bottom-color: darkblue;
+}
+
+.button img{/*/ iconos de redes */
+    margin-top: 5px;
+    text-align: center;
+    text-transform:uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+}

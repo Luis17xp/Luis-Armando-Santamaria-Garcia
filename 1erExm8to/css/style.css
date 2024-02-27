@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.clear {
+    clear: both;
+}
+
+.aql-table {
+    margin: 10px 0;
+}
+
+.aql-table th, .aql-table td {
+    padding: 7px;
+    text-align: center;
+}
+
+.aql-table th {
+    background-color: #f2f2f2;
+}
+
+.aql-table input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.aql-table input[type="text"]:disabled {
+    background-color: #f2f2f2;
+}
+
+.aql-table input[type="text"]:not(:disabled) {
+    background-color: #fff;
+}
+
+.aql-table input[type="text"]:focus {
+    border: 1px solid #000;
+}
+
+.aql-table input[type="text"]:disabled:focus {
+    border: 1px solid #ddd;
+}
+
+.aql-table input[type="text"]:not(:disabled):focus {
+    border: 1px solid #000;
+}
+
+.aql-table input[type="text"]:disabled:focus {
+    border: 1px solid #ddd;
+}
+
+.aql-table input[type="text"]:not(:disabled):focus {
+    border: 1px solid #000;
+}
+
+.aql-table input[type="text"]:disabled:focus {
+    border: 1px solid #ddd;
+}
+
+.aql-table input[type="text"]:not(:disabled):focus {
+    border: 1px solid #000;
+}
+
+.aql-table input[type="text"]:disabled:focus {
+    border: 1px solid #ddd;
+}
+
+.aql-table input[type="text"]:not(:disabled):focus {
+    border: 1px solid #000;
+}
+
+.aql-table input[type="text"]:disabled:focus {
+    border: 1px solid #ddd;
+}
+
+.aql-table input[type="text"]:not(:disabled):focus {
+    border: 1px solid #000;
+}
+
+.aql-table input[type="text"]:disabled:focus {
+    border: 1px solid #ddd;
+}
+
+.aql-table input[type="text"]:not(:disabled):focus {
+    border: 1px solid #000;
+}
+
+.aql-table input[type="text"]:disabled:focus {
+    border: 1px solid #ddd;
+}
+
+.aql-table input[type="text"]:not(:disabled):focus {
+    border: 1px solid #000;
+}
+
+.aql-table input[type="text"]:disabled:focus {
+    border: 1px solid #ddd;
+}
+
+.aql-table input[type="text"]:not(:disabled):focus {
+    border: 1px solid #000;
+     }

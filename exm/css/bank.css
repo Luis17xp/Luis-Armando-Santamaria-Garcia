@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f7f7f7;
+    padding: 20px;
+}
+
+#banner{
+    width:100%;
+    padding: auto;
+    align-items: stretch;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #373636;
+    padding: 8px;
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #cebb10;
+    color: rgb(0, 0, 0);
+}
