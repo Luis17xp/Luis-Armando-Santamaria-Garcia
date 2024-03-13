@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,4 +67,74 @@
     </script>
     <a href="../index.html">Regresar al Menu Principal</a>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NooBs Bank Inversion 17%</title>
+    <link rel="stylesheet" href="../exm/css/bank.css">
+    <script src="js/exm.js"></script>
+</head>
+
+<body>
+    <img id="banner" src="./noobsbank.jpg">
+    <label for="Ingreso de capital">Ingreso de su dinero : </label>
+    <input type="text" name="Ingreso de capital" id="Ingreso de capital" placeholder="ingreso total: $000.00">
+    <span id="mensaje" style="color: rgb(5, 135, 91);"></span>
+    <br>
+    <br>
+    <label for="porcentaje">Porcentaje : </label>
+    <select name="porcentaje" id="porcentaje">
+        <option value="17">%17</option>
+    </select>
+    <br>
+    <br>
+    <label for="dias">Días : </label>
+    <select name="dias" id="dias">
+        <option value="14">14</option>
+        <option value="30">30</option>
+        <option value="70">70</option>
+    </select>
+    <br>
+    <br>
+    <button id="button">Calcular</button>
+    <br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Día</th>
+                <th>Resultado</th>
+            </tr>
+        </thead>
+        <tbody id="tabla Resultados"></tbody>
+    </table>
+    <br>
+    <span id="Resultados "></span>
+    <script>
+        function calcular() {
+            const capital = parseFloat(document.getElementById('Ingreso de capital').value);
+            const porcentaje = parseFloat(document.getElementById('porcentaje').value);
+            const dias = parseInt(document.getElementById('dias').value);
+            const tablaResultados = document.getElementById('tabla Resultados');
+            const mensaje = document.getElementById('mensaje');
+            let resultado = capital;
+            let html = '';
+            if (isNaN(capital) || isNaN(porcentaje) || isNaN(dias)) {
+                mensaje.textContent = 'Por favor, ingrese valores válidos.';
+                return;
+            }
+            for (let i = 1; i <= dias; i++) {
+                resultado *= 1 + porcentaje / 100;
+                html += `<tr><td>${i}</td><td>${resultado.toFixed(2)}</td></tr>`;
+            }
+            tablaResultados.innerHTML = html;
+            mensaje.textContent = '';
+        }
+        document.getElementById('button').addEventListener('click', calcular);
+    </script>
+    <a href="../index.html">Regresar al Menu Principal</a>
+</body>
+>>>>>>> 08cfb6688697bdee70ea92d7b7f01f1c3045de85
 </html>
